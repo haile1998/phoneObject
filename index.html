@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.css">
+</head>
+<body>
+<div class="phoneWrap">
+    <div class="battery">
+        <div class="battery-wrap">
+            <div id="b-left"></div>
+        </div>
+    </div>
+    <div class="phone">
+        <div id="screen">
+            <div class="homeScreen">
+                <div class="message">
+                    <button id="mess" onclick="showMess()"></button><span>Soạn tin nhắn</span>
+                </div>
+                <div class="message">
+                    <button id="inbox"></button><span>Hộp thư đến</span>
+                </div>
+                <div class="message">
+                    <button id="send"></button><span>Hộp thư gửi</span>
+                </div>
+            </div>
+            <div class="messText">
+                <input type="text" id="phoneNum">
+                <textarea id="textMess" cols="30" rows="10"></textarea>
+                <button id="sendMessage">Gửi</button>
+            </div>
+            <div class="messageSend"></div>
+            <div class="messageInbox"></div>
+        </div>
+        <div id="power"></div>
+    </div>
+    <div class="home">
+        <button id="home">Home</button>
+    </div>
+    <div class="charge">
+        <button id="charge">Charge</button>
+    </div>
+</div>
+<div class="phoneWrap">
+    <div class="battery">
+        <div class="battery-wrap">
+            <div id="b-left2"></div>
+        </div>
+    </div>
+    <div class="phone">
+        <div id="screen2">
+            <div class="homeScreen">
+                <div class="message">
+                    <button id="mess2" onclick="showMess2();"></button><span>Soạn tin nhắn</span>
+                </div>
+                <div class="message">
+                    <button id="inbox2"></button><span>Hộp thư đến</span>
+                </div>
+                <div class="message">
+                    <button id="send2"></button><span>Hộp thư gửi</span>
+                </div>
+            </div>
+            <div class="messText">
+                <input type="text" id="phoneNum2">
+                <textarea id="textMess2" cols="30" rows="10"></textarea>
+                <button id="sendMessage2">Gửi</button>
+            </div>
+            <div class="messageSend"></div>
+            <div class="messageInbox"></div>
+        </div>
+        <div id="power2"></div>
+    </div>
+    <div class="home">
+        <button id="home2">Home</button>
+    </div>
+    <div class="charge">
+        <button id="charge2">Charge</button>
+    </div>
+</div>
+<script src="script.js">
+</script>
+</body>
+</html>
